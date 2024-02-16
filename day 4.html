@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4</title>
+    <link rel="stylesheet" href="day4.css">
+    <style>
+        #p2{
+            color: red;
+        }
+        
+        #d1{
+        display: none;
+        }
+
+        #d2{
+        visibility: hidden;
+        }
+
+        #d3{
+        opacity: 0;
+        }
+        #f1{
+            display: flex;
+            justify-content: space-between;
+        }
+        #d11{
+            width: 40vw;
+            height: 150px;
+            background-color: orange;
+        }
+        #d12{
+            width: 40vw;
+            height: 150px;
+            background-color: yellow;
+        }
+        #d11,p ,#d12,p{
+            display: flex;
+            justify-content: space-between;
+        }
+        #grid1{
+            width: 70vw;
+            height: 40vh;
+            background-color: orangered;
+            display: grid;
+            border: 4px solid greenyellow;
+            border-radius: 60px;
+            box-shadow: 10px 10px 10px 30px greenyellow;
+            margin: 50px;
+            margin-left: 160px;
+        }
+        #ss{
+            display: grid;
+            grid-template-columns: 20vw 20vw 20vw ;
+            padding-top: 10px;
+            padding-left: 60px;
+            
+        }
+        #sm1,#sm2,#sm3{
+            background-color: yellow;
+            width: 10vw;
+            min-height: 10vh;
+        }
+        li{
+            list-style: decimal-leading-zero
+        }
+    </style>
+
+
+</head>
+<body>
+    <!-- Css - Internal | inline | external -->
+    <p>In Line</p>
+    <p id="p1" style="color: pink;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, perferendis.</p>
+    <p>Internal</p>
+    <p id="p2"></p>
+    <p>External</p>
+    <div id="d1">
+        <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, amet!</p>
+    </div>
+    <!-- Day 4 -->
+    <!-- Display Propery -->
+    <!-- To hide a content we can use 3 diff ways -->
+    <p>Day 4</p>
+    hey
+    <p id="d1">Hello</p>
+    hey
+    <p id="d2">Hi</p>
+    hey
+    <p id="d3">Hello, Hi</p>
+    <p><strong>FLEX and GRID</strong></p>
+    <div id="f1">
+        <div id="d11">
+            <p>Hii</p>
+            <p>Hii</p>
+            <p>Hii</p>
+        </div>
+        <div id="d12">
+            <p>Hii</p>
+            <p>Hii</p>
+            <p>Hii</p>
+        </div>
+    </div>
+    <p><strong>GRID</strong></p>
+    <div id="grid1">
+        <div id="ss">
+    <div id="sm1">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, sapiente.</p>
+    </div>
+    <div id="sm2">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum numquam adipisci commodi eos mollitia quibusdam, impedit cum beatae voluptate doloremque!</p>
+    </div>
+    <div id="sm3">
+   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem a, deleniti sit dolores ratione adipisci soluta in, repellendus iste fugit quasi illum aperiam expedita corrupti sed atque commodi ab recusandae.</p>
+   </div>
+   </div>
+   </div>
+   <p>LIST STYLE</p>
+   <ul>
+    <li>Apple</li>
+    <li>Mango</li>
+    <li>Grapes</li>
+    <li>orange</li>
+   </ul>
+
+
+
+
+
+
+
+
+</body>
+</html>
