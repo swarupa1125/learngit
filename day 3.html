@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3</title>
+    <style>
+        #p1{
+           color: blue;
+        }
+        .p2{
+            color: orange;
+        }
+        #s1:hover{
+          color: yellowgreen;
+          font-size: larger;
+        }
+        a:active{
+            color: yellow;
+            font-size: larger;
+        }
+        #in:focus{
+            background-color: yellow;
+        }
+        a::before{
+         content: "Hey";
+        }
+        a::after{
+            content: "ijg";
+        }
+        #w1::first-letter{
+            font-size: 100px;
+        }
+        #w1::first-line{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        table,td,th{
+            border: 1px solid red;
+            border-collapse: collapse;
+        }
+        #b1{
+            background-color: orange;
+            width: 100px;
+            height: 100px;
+            overflow: scroll;
+        }
+        
+        #b2{
+            background: linear-gradient(to bottom, blue,red);
+            width:100px;
+            height: 100px;
+        }
+        #b3{
+            background-image: url("download.jpg");
+            width: 40vw;
+            height: 40vh;
+            background-size: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Css Started -->
+    <!-- How to connect Css with Html - Inline | Internal | External -->
+    <!-- Inline -->
+    <p style="font-size: 20px;color: red;">CSS inline used</p>
+    <!-- Internal -->
+    <!-- To use an internal Css, selectors are used 5 selectors namely - Class | Id | 
+        Psuodo class | Psuodo element | element  -->
+        <p id="p1">Id is used</p>
+        <p class="p2">Class is used</p>
+        <!-- Psuodo class : it is used during mouse action - Hover | Active | Focus -->
+        <p id="s1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, eum.</p>
+        <a href="https://www.google.com">Go to Google</a>
+        <input id="in">
+        <!-- Psuodo element : Before | After | First line | First Letter -->
+        <input>
+        <p id="w1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, dignissimos.</p>
+        <br>
+           <!-- TABLE -->
+           <table>
+            <tr>
+                <th>Name</th>
+                <th>Place</th>
+                <th>Thing</th>
+            </tr>
+            <tr>
+                <td>Swarupa</td>
+                <td>Tamil Nadu</td>
+                <td>Laptop</td>
+            </tr>
+           </table>
+           <br>
+           <!-- Background and Text -->
+           <!-- Background -->
+           <div id="b1"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nulla autem cum ut praesentium provident temporibus porro deleniti doloribus magnam!</p></div>
+           <br>
+           <div id="b2"></div>
+           <div id="b3"></div>
+          
+   
+   
+    </body>
+</html>
