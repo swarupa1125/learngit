@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seeder-Download Manager On The Cloud</title>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           
+        }
+        #topdiv{
+            width: 100vw;
+            height: 12vh;
+            background:linear-gradient(to right,rgb(152, 205, 248), rgb(94, 91, 171) );
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #logo{
+            padding-left: 140px;
+            padding-top: 10px;
+        }
+        ul a{
+           text-decoration: none;
+           color: white;
+           display: inline-block;
+           margin: 0 70px;
+           font-size: larger;
+        }
+        #border{
+            border: 1px solid white;
+            width: 60px;
+            height: 30px;
+            padding-top: 8px;
+            padding-left: 14px;
+            border-radius: 5px;
+        }
+        #left{
+          background-color: yellow;
+          width: 50vw;
+          height: 86vh;
+          
+        }
+        #pic{
+         background-color: whitesmoke;
+         width: 50vw;
+         height: 63vh;
+        }
+
+        #text{
+         background-color: whitesmoke;
+         width: 50vw;
+         height: 43vh;
+        }
+        #mini{
+            width: 30vw;
+            height: 96vh;
+            border-radius: 2%;
+            background-color: rgb(239, 228, 228);
+            transform: translate(130px,60px);
+            box-shadow: 1px 7px 30px 10px grey;
+            border-top: 10px solid purple;
+        }
+      
+        #www{
+        display: block;
+        transform: translate(40px,50px);
+        width: 23vw;
+        height: 4vh;
+
+        }
+        #word2{
+            transform: translate(40px,100px); 
+        }
+        #word{
+            transform: translate(40px,50px); 
+        }
+        #rightt{
+          background-color: whitesmoke;
+          width: 50vw;
+          height: 106vh;
+          
+        }
+        #big{
+            display: flex;
+        }
+        #design{
+            font-size: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #lil{
+            width: 32vw;
+            height: 40vh;
+            background-color: whitesmoke;
+            transform: translate(100px,20px);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        #input{
+            width: 30vw;
+            height: 70vh;
+            background-color: whitesmoke;
+            
+            
+        }
+        #needed{
+            color: rgb(129, 199, 223);
+            text-decoration: none;
+            font-size: 20px;
+           
+        }
+        #word1{
+            transform: translate(40px,90px); 
+        }
+        #rome{
+            transform: translate(40px,110px);
+        }
+        #button{
+            transform: translate(50px,140px);
+        }
+        
+    </style>
+</head>
+<body>
+     <div id="topdiv">
+        <!-- Logo -->
+            <img id="logo" src="Logo_project1-removebg-preview.png">
+        <!-- Links at the top -->
+        <ul>
+           <a href="https://chromewebstore.google.com/detail/seedr/abfimpkhacgimamjbiegeoponlepcbob?pli=1">Chrome Extensions</a>
+           <a href="https://www.seedr.cc/premium">Premium</a>
+           <a href="#" id="border">Login</a>
+        </ul>
+     </div>
+     <div id="big">
+        <div id="left">
+        <div id="pic">
+                <img src="mobile-removebg-preview.png">
+        </div>
+        <div id="text">
+        <div id="lil"><span id="design" >Paste a link from another website, then</span><span id="design" style="color: red;"> Play </span><span id="design">and </span><span id="design" style="color: blue;">Download</span> <span id="design">it to any device.<br>
+            No software required!</span></div>
+        </div>
+        </div>
+        <div id="rightt">
+            <div id="mini">
+            <div id="input">
+                <p style="text-align: center;padding-top: 10px; font-size: 40px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Get Started</p>
+                <a href="#" id="needed" ><center>Login to your account</center></a>
+                
+                <p id="word">Email</p>
+                <input type="email" id="www">
+                <p id="word1">Password</p>
+                <input type="password" id="www" style="transform: translate(40px,90px);">
+                <p id="word2">Notify me about special offers & site updates</p>
+                <div id="rome">
+                <input type="radio" name="eee"><span>  Yes</span>
+                <input type="radio" name="eee"><span>  No</span>
+                <div><input type="checkbox"><span > I agree to Seedr Terms and Privacy Policy</span></div>
+                </div>
+                
+                <div id="button">
+                    <button style="width:22vw;height:7vh;background-color: rgb(129, 199, 223);font-size: 20px; color: white;border-radius: 100px;border: 0;">Continue</button>
+                </div>
+                
+            </div>
+           
+            <div id="down">
+            <div id="google">
+                <button style="width:22vw;height:7vh;background-color: white;font-size: 20px; color: white;border-radius: 100px;border: 0; transform: translate(50px,40px);color: gray;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                    <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+                  </svg>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspContinue with Google</button>
+
+            </div>
+            <div id="fb">
+                <button style="width:22vw;height:7vh;background-color: rgb(129, 199, 223);font-size: 20px; color: white;border-radius: 100px;border: 0;transform: translate(50px,60px);"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                  </svg>&nbsp&nbsp&nbsp&nbspContinue with Facebook</button>
+
+            </div>
+            </div>
+            
+            </div>
+        </div>
+        
+     </div>
+</body>
+</html>
